@@ -6,10 +6,10 @@ BRANDS = []
 
   def initialize(brand)
     @brand = brand
-  end
+
 
 BRANDS << brand
-
+end
 
   def cobble
     self.condition = "new"
