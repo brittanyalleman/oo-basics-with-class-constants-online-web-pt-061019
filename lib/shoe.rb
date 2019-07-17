@@ -5,11 +5,9 @@ class Shoe
 BRANDS = []
 
   def initialize(brand)
-    @brand = brand
-
-
-BRANDS << brand
-end
+    @brand = brand.include?
+    BRANDS << brand
+  end
 
   def cobble
     self.condition = "new"
