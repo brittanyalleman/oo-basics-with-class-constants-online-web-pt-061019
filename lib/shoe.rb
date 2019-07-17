@@ -7,7 +7,7 @@ class Shoe
   end
 BRANDS = []
 
-  end
+  
 
   def cobble
     self.condition = "new"
